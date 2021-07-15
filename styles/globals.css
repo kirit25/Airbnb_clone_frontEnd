@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+html, 
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif ;
+}
+.nav{
+  position: sticky;
+  z-index: 100;
+  box-shadow: rgb(0 0 0 /12%) 0 6px 16px;
+  padding: 30px;
+}
+
+.logo{
+  width: 130px;
+  height: 40px;
+  background-image: url('../images/1280px-Airbnb_Logo_Bélo.svg.png');
+  background-size: 130px;
+}
+.container {
+  flex: column;
+  flex-direction: column;
+  padding: 20px 50px;
+}
+
+
+.section {
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.informations {
+  width: 60%;
+}
+
+.price-box {
+  width: 35%;
+  height: 250px;
+  border: 1px solid rgb(221,221,223);
+  border-radius: 12px;
+  box-shadow: rgb(0 0 0 /12%) 0 6px 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button{
+  width: 90%;
+  padding: 15px;
+  border-radius: 10px;
+  color: rgb(255,255,255);
+  text-align: center;
+  background: linear-gradient(135deg, rgba(255,56,92,) 20%, rgb(189,30,89));
+
+}
+.images-section {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.sub-image-section {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.main-image {
+  width: 50%;
+  height: 270px;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction:row;
+}
+
+.feed-container {
+  width: 100%;
+  height:100vh;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+.feed{
+  display: flex;
+  flex-wrap:wrap;
+}
+.map{
+  width: 50%;
+}
+.card{
+  padding: 5px;
+}
+.card img{
+  width:250px;
+  border-radius: 20px;
+}
+.image {
+  width: 50%
+}
+.image img{
+  width: 100%;
+}
+
+.sub-images-section{
+  display: flex;
+  flex-wrap: wrap;
+}
